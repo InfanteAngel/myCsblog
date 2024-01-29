@@ -1,9 +1,7 @@
 const mobileNav = document.getElementById("toggleNav");
 const bToggle = document.getElementById("burger");
 const xToggle =document.getElementById("navToggleX");
-bToggle.setAttribute("aria-hidden", "false");
 
-bToggle.setAttribute("aria-hidden", "true");
 
 window.addEventListener("scroll", function(){
     var headerNav = document.getElementById("primary-nav");
@@ -26,6 +24,8 @@ function toggle(){
         mobileNav.classList.toggle("visually-hidden");
     }
 }
+
+
 
 
 bToggle.addEventListener("click", toggle);
