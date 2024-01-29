@@ -89,8 +89,13 @@
 
 html,
 body{
-    height: 100%;
     scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+      min-height: 100%;
 }
 /* Prevent font size inflation */
 html {
@@ -113,7 +118,6 @@ ol[role='list'] {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
   line-height: 1.5;
 }
 
@@ -277,7 +281,6 @@ a{
     padding-bottom: 1em;
     overflow-wrap: break-word;
 }
-
 
 
 
@@ -520,8 +523,15 @@ a{
     text-align: center;
 }
 
+
+footer{
+    background-color: var(--background-clr);
+}
+
 .myFooter{
-    margin-top: 2em;
+    padding-top: 1em;
+    height: 10em;
+    width: 100%;
 }
 
 .myFooter h1{
@@ -577,9 +587,6 @@ a{
         width: 90%;
     }
 
-    .myFooter{
-        text-align: center;
-    }
 
     .icon-list{
     gap: 2em;
@@ -679,4 +686,12 @@ a{
 
 .downArrow:active{
     color: var(--secondary-clr);
+}
+
+.myDivBlock{
+    height: 16vh;
+}
+
+.divBlock2{
+    height: 37vh;
 }
