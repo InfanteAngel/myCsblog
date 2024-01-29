@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/488766d18c.js" crossorigin="anonymous"></script>
+    <title>CS Blog</title>
+</head>
+<body class="background-clr primary-font">
+<header>
+      <div>
+        <nav id="primary-nav">
+          <div class="navbar">
+            <ul class="nav-list">
+              <li class="burger-toggle menu-toggle">
+                <i
+                  class="fa-solid fa-bars burger"
+                  id="burger"
+                  aria-hidden="false"
+                ></i>
+              </li>
+              <li class="losChatitos">
+                <a href="./index.html">
+                  Angel <br />
+                  Infante
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <nav
+        class="mobile-nav | text-clr visually-hidden"
+        aria-hidden="true"
+        id="toggleNav"
+      >
+        <div class="nav-list-mb">
+          <ul>
+            <li class="burger-toggle" id="navToggle">
+              <i class="fa-solid fa-x x-toggle" id="navToggleX"></i>
+            </li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./maintancePage.html">Fall Classes</a></li>
+            <li><a href="#">CS Blog</a></li>
+            <li><a href="./standUp.html">Sprint Stand Ups</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <div class="top-section container grid-col">
+            <div class="blog-img">
+                <img src="./images/blogIMG.jpg" alt="computer Images" id="blog-image">
+            </div>
+            <div>
+                <h1>Computer Science Blog</h1>
+            </div>
+        </div>
+
+        <div class="week2Blog container">
+            <h1>Second Week</h1>
+            <h2>Todays Topic: React and .map function</h2>
+            <br>
+            <div class="grid-col">
+                <div class="blog-text-box">
+                    <p>This week, I was learning how to loop through react components. I ended up learning easier ways in order to deconstruct our list of items in order to utilize the across the whole site. I learned how to also make our react components a lot more dynamic and that way make it a lot easier to edit and move around. I also learned about using a .map function in order to loop through my list of items and display them. I struggled with the .map function, I wanted to just display a certain element from my list of items. I found it interesting the way that react itself utilizes this function in order to make our website a lot mroe dynamic, we are able to display bunch of lines of code just by using a .map function which can be something I could use in order to create an infinite website.</p>
+                </div>
+                <div>
+                    <img src="./images/mapCode.png" alt="mapCode" id="mapCodeSnap">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    <div class="container myFooter">
+        <h1 class="secondary-clr">Check out my links!</h1>
+        <ul class="icon-list accent-clr">
+        <li><i class="fa-solid fa-envelope"></i></li>
+        <li><i class="fa-brands fa-linkedin"></i></li>
+        <li><i class="fa-brands fa-github"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+    </div>
+</footer>
+    <script src="./script.js"></script>
+</body>
+</html>
