@@ -550,6 +550,14 @@ a{
     
 }
 
+.vocab-section li{
+    margin-bottom: 1em;
+}
+
+.vocab-section h1{
+    margin-bottom: 1em;
+}
+
 @media (max-width: 48em){
     .inner-grid{
         grid-auto-flow: row;
